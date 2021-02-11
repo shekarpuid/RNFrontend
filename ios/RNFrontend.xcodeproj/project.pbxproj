@@ -11,6 +11,8 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		18CB2B5425D581C7007B4D68 /* NunitoSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18CB2B5225D581C6007B4D68 /* NunitoSans-Regular.ttf */; };
+		18CB2B5525D581C7007B4D68 /* Lobster-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18CB2B5325D581C6007B4D68 /* Lobster-Regular.ttf */; };
 		1B3CC390F92052FF6C83137A /* libPods-RNFrontend-RNFrontendTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C66B9CD11736E21F392CBB11 /* libPods-RNFrontend-RNFrontendTests.a */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
@@ -51,6 +53,8 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = RNFrontend/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = RNFrontend/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = RNFrontend/main.m; sourceTree = "<group>"; };
+		18CB2B5225D581C6007B4D68 /* NunitoSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NunitoSans-Regular.ttf"; sourceTree = "<group>"; };
+		18CB2B5325D581C6007B4D68 /* Lobster-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lobster-Regular.ttf"; sourceTree = "<group>"; };
 		2D02E47B1E0B4A5D006451C7 /* RNFrontend-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RNFrontend-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* RNFrontend-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RNFrontend-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C472686AA17D08237EC5157 /* libPods-RNFrontend-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RNFrontend-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -125,6 +129,7 @@
 		13B07FAE1A68108700A75B9A /* RNFrontend */ = {
 			isa = PBXGroup;
 			children = (
+				18CB2B5125D581C6007B4D68 /* Fonts */,
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
@@ -134,6 +139,15 @@
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
 			name = RNFrontend;
+			sourceTree = "<group>";
+		};
+		18CB2B5125D581C6007B4D68 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				18CB2B5225D581C6007B4D68 /* NunitoSans-Regular.ttf */,
+				18CB2B5325D581C6007B4D68 /* Lobster-Regular.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
@@ -161,7 +175,6 @@
 				E196CB1BA915F66CC9D86ABA /* Pods-RNFrontend-tvOSTests.debug.xcconfig */,
 				AF21BA54D3E74F9E8E0025C0 /* Pods-RNFrontend-tvOSTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -341,6 +354,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				18CB2B5525D581C7007B4D68 /* Lobster-Regular.ttf in Resources */,
+				18CB2B5425D581C7007B4D68 /* NunitoSans-Regular.ttf in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
