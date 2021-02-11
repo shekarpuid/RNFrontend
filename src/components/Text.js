@@ -1,3 +1,4 @@
 import React from 'react'
 import {Text} from 'react-native'
-export default props => <Text {...props} style={[{fontFamily: 'CarmenSans-Regular'}, props.style]}>{props.children}</Text>
+// fontFamily: 'CarmenSans-Regular'
+export default props => <Text {...props} style={[{fontSize: 14}, props.style]}>{props.children}</Text>
