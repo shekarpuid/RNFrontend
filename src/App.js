@@ -13,10 +13,17 @@ import Routes from './Routes'
 import styles from './Styles'
 
 const store = createStore(rootReducer, composeWithDevTools(applyMiddleware(thunk)))
+const STATUS_BAR_HEIGHT = Platform.OS === 'ios' ? 44 : StatusBar.currentHeight
 
 const App = () => {
     return (
         <>
+            <View style={{
+                width: "100%",
+                height: STATUS_BAR_HEIGHT,
+                backgroundColor: '#CC0000'
+            }}>
+                <StatusBar barStyle={Platform.OS === 'ios' ? 'light-content' : 'light-content'} backgroundColor="#CC0000" />
             {/* <StatusBar barStyle={Platform.OS === 'ios' ? 'dark-content' : 'light-content'} backgroundColor="#CC0000" /> */}
 
             <View style={styless.StatusBar}>
