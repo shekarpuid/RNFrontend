@@ -6,6 +6,8 @@ import { SettingsStackNavigator } from "./StackNavigator";
 import TabNavigator from "./TabNavigator"
 import Counter from "../screens/hoc/Counter";
 import FetchHook from "../screens/useFetch/FetchHook"
+import TabNavigator from "./TabNavigator";
+import Counter from "../screens/hoc/Counter";
 
 const Drawer = createDrawerNavigator();
 
