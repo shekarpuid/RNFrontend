@@ -24,10 +24,6 @@ const App = () => {
                 backgroundColor: '#CC0000'
             }}>
                 <StatusBar barStyle={Platform.OS === 'ios' ? 'light-content' : 'light-content'} backgroundColor="#CC0000" />
-            {/* <StatusBar barStyle={Platform.OS === 'ios' ? 'dark-content' : 'light-content'} backgroundColor="#CC0000" /> */}
-
-            <View style={styless.StatusBar}>
-                <StatusBar translucent barStyle="light-content" />
             </View>
             <SafeAreaView style={[styles.safeAreaView]}>
                 <Provider store={store}>
@@ -37,14 +33,7 @@ const App = () => {
         </>
     )
 }
-const STATUSBAR_HEIGHT = StatusBar.currentHeight
 
-const styless = StyleSheet.create({
-    StatusBar: {
-        height: Platform.OS === 'ios' ? 44 : STATUSBAR_HEIGHT,
-        backgroundColor: '#CC0000'
-    }
-});
 export default App
 
 // import React, {Component} from "react";

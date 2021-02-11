@@ -9,7 +9,7 @@ const Stack = createStackNavigator();
 
 const screenOptionStyle = {
     headerStyle: {
-        backgroundColor: "#9AC4F8",
+        backgroundColor: "#CC0000",fontFamily: 'Lobster-Regular'
     },
     headerTintColor: "white",
     headerBackTitle: "Back",
@@ -17,8 +17,17 @@ const screenOptionStyle = {
 
 const MainStackNavigator = () => {
     return (
-        <Stack.Navigator screenOptions={{ headerShown: false }}>
-            <Stack.Screen name="Home" component={Home} />
+        <Stack.Navigator screenOptions={{ 
+            headerShown: true,
+            headerStyle: {
+                backgroundColor: "#CC0000",
+            },
+            headerTintColor: "white",
+            headerTitleStyle: {
+                fontFamily: 'Lobster-Regular',fontSize: 25
+            }
+        }}>
+            <Stack.Screen name="Posts" component={Home} />
             <Stack.Screen name="Profile" component={Profile} />
         </Stack.Navigator>
     );
