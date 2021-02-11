@@ -8,7 +8,7 @@ import styles from '../../Styles'
 const Counter = () => {
     return(
         <>
-        {console.log('counter')}
+        {/* {console.log('counter')} */}
             <View style={[styles.flex1, styles.vhCenter]}>
                 <Text style={styles.heading}>Counter HOC</Text>
                 <CounterOne />

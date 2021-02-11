@@ -9,7 +9,7 @@ const CounterOne = (props) => {
 
     return(
         <>
-            {console.log('counter 1')}
+            {/* {console.log('counter 1')} */}
             <View>
                 <TouchableOpacity onPress={() => increment()} style={[styles.button, styles.mb15]}>
                     <Text style={styles.buttonText}>Clicked {count} times</Text>
