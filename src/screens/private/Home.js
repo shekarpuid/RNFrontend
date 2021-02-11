@@ -42,8 +42,8 @@ const Home = (props) => {
             scrollEventThrottle={100}
         >
             <View style={[styles.flex1, styles.vhCenter, styles.ph20]}>
-                <Text style={styles.heading}>Posts</Text>
-                <Text>Count: {count}</Text>
+                {/* <Text style={styles.heading}>Posts</Text> */}
+                <Text style={{marginTop: 25}}>Count: {count}</Text>
                 {loading ? <ActivityIndicator size="large" color="#CC0000" /> : null}
                 {posts.map((post, index) => {
                     if (index + 1 <= items)
