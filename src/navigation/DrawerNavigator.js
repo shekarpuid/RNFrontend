@@ -7,6 +7,7 @@ import TabNavigator from "./TabNavigator"
 import Counter from "../screens/hoc/Counter";
 import FetchHook from "../screens/useFetch/FetchHook"
 import Onboarding from "../screens/Onboarding";
+import UsersSearch from "../screens/UsersSearch";
 
 const Drawer = createDrawerNavigator();
 
@@ -18,6 +19,7 @@ const DrawerNavigator = () => {
       <Drawer.Screen name="Counter HOC" component={Counter} />
       <Drawer.Screen name="Fetch Hook" component={FetchHook} />
       <Drawer.Screen name="Onboarding Screens" component={Onboarding} />
+      <Drawer.Screen name="Users Search" component={UsersSearch} />
     </Drawer.Navigator>
   );
 }
