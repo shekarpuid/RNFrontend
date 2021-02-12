@@ -16,7 +16,10 @@ const styles = StyleSheet.create({
     heading:{fontWeight: 'bold', fontSize: 25, marginBottom: 15,fontFamily: lob},
     input: {fontFamily: nunito, width: '100%', height: 40, borderColor: '#ccc', borderWidth: 1, borderRadius: 8, paddingHorizontal: 15,paddingVertical: 10, marginBottom: 15},
     button: {paddingHorizontal: 25, paddingVertical: 10, backgroundColor: '#CC0000', borderRadius: 8},
-    buttonText: {color: '#fff', fontSize: 16}
+    buttonText: {color: '#fff', fontSize: 16},
+
+    // Like styles
+    heartLottie: {width: 50, height: 50},
 
 })
 
